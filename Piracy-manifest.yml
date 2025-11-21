@@ -1,0 +1,86 @@
+Goldberg (Fork):
+  files:
+    "<winAppData>/GSE Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+
+Goldberg:
+  files:
+    "<winAppData>/Goldberg SteamEmu Saves":
+      tags:
+        - save
+      when:
+        - os: windows
+
+OnlineFix:
+  files:
+    "<winPublic>/Documents/OnlineFix":
+      tags:
+        - save
+      when:
+        - os: windows
+
+EMPRESS:
+  files:
+    "<winAppData>/EMPRESS":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winPublic>/EMPRESS":
+      tags:
+        - save
+      when:
+        - os: windows
+
+Rune:
+  files:
+    "<winPublic>/Documents/Steam/Rune":
+      tags:
+        - save
+      when:
+        - os: windows
+
+Codex:
+  files:
+    "<winPublic>/Documents/Steam/Codex":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winAppData>/Steam/CODEX":
+      tags:
+        - save
+      when:
+        - os: windows
+
+SkidRow:
+  files:
+    "<winDocuments>/SkidRow":
+      tags:
+        - save
+      when:
+        - os: windows
+    "<winLocalAppData>/skidrow":
+      tags:
+        - save
+      when:
+        - os: windows
+
+SmartSteamEmu:
+  files:
+    "<winAppData>/SmartSteamEmu":
+      tags:
+        - save
+      when:
+        - os: windows
+
+CreamApi:
+  files:
+    "<winAppData>/CreamApi":
+      tags:
+        - save
+      when:
+        - os: windows
