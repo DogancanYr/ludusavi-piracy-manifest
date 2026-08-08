@@ -29,10 +29,11 @@ A **manifest** that provides **emulator related paths** for **Ludusavi**, includ
 | SkidRow            | `Documents/SkidRow`, `%LOCALAPPDATA%/skidrow`                                                         |
 | SmartSteamEmu      | `%APPDATA%/SmartSteamEmu`                                                                                    |
 | CreamApi           | `%APPDATA%/CreamApi`                                                                                         |
-| UniverseLAN*        | **`<root>/**/UniverseLANData`**, `C:/GOG Games/**/UniverseLANData`, `D:/GOG Games/**/UniverseLANData`, `C:/Games/GOG Games/**/UniverseLANData`, `D:/Games/GOG Games/**/UniverseLANData` |
+| UniverseLAN*        | **`<root>/**/UniverseLANData`**, `C:/GOG Games/**/UniverseLANData`, `D:/GOG Games/**/UniverseLANData`, `C:/Games/GOG Games/**/UniverseLANData`, `D:/Games/GOG Games/**/UniverseLANData` **`Global Folder: <winLocalAppData>/UniverseLAN`** |
 
-| ❗  |  Because UniverseLAN depends on the game installation, if your game is installed outside the default GOG games installation path or C:/ and D:/, add the main folder of your game(s) here if they are not in the default location.           | 
+| ❗  |  Because UniverseLAN depends on the game installation, if your game is installed outside the default GOG games installation path or C:/ and D:/, add the main folder of your game(s) here if they are not in the default location. **`Before launching the game, make sure to run UniverseLANServer.exe or UniverseLANServer64.exe so your achievement progress is saved to disk.`**|
 | ------------- |:-------------:|
+| ❗❗❗  |  If you want to use `C:\Users\[Your Username]\AppData\Local\UniverseLAN` as the global folder, only copy `Galaxy.dll` and/or `Galaxy64.dll`, along with `UniverseLANServer.exe` and/or `UniverseLANServer64.exe`, into the game directory. **Do not copy** `UniverseLAN.ini`, `UniverseLANData`, or `UniverseLANServerData` into the game directory. (A valid goggame-*.info file must be present, and its rootGameId must be successfully parsed.) **`Before launching the game, make sure to run UniverseLANServer.exe or UniverseLANServer64.exe so your achievement progress is saved to disk.`**|
 
 ## ✨ Want to add a new emulator or piracy related tool?  
 Just open an **Issue** and provide:  
