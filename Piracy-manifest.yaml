@@ -112,3 +112,8 @@ UniverseLAN (Emulator):
         - save
       when:
         - os: windows
+    "<winLocalAppData>/UniverseLAN":
+      tags:
+        - save
+      when:
+        - os: windows
