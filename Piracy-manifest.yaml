@@ -77,7 +77,7 @@ SmartSteamEmu (Emulator):
       when:
         - os: windows
 
-CreamApi (Emulator):
+CreamApi (Dlc Unlocker):
   files:
     "<winAppData>/CreamApi":
       tags:
@@ -113,6 +113,48 @@ UniverseLAN (Emulator):
       when:
         - os: windows
     "<winLocalAppData>/UniverseLAN":
+      tags:
+        - save
+      when:
+        - os: windows
+
+Razor1911 (Emulator):
+  files:
+    "<winAppData>/.1911":
+      tags:
+        - save
+      when:
+        - os: windows
+
+Razor1911 (Emulator):
+  files:
+    "<winAppData>/.1911":
+      tags:
+        - save
+      when:
+        - os: windows
+
+FLT (Emulator):
+  files:
+    "<winAppData>/FLT":
+      tags:
+        - save
+      when:
+        - os: windows
+
+TENOKE (Emulator):
+  files:
+    "<root>/**/TENOKE":
+      tags:
+        - save
+      when:
+        - os: windows
+    "C:/Games/**/TENOKE":
+      tags:
+        - save
+      when:
+        - os: windows
+    "D:/Games/**/TENOKE":
       tags:
         - save
       when:
