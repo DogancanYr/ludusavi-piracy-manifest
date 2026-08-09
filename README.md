@@ -31,10 +31,10 @@ A **manifest** that provides **emulator related paths** for **Ludusavi**, includ
 | CreamApi           | `%APPDATA%/CreamApi`                                                                            |
 | Razor1911          | `%APPDATA%/.1911`                                                                               |
 | FLT                | `%APPDATA%/FLT`                                                                                 |
-| TENOKE             | **`<root>/**/TENOKE`**, `C:/Games/**/TENOKE`, `C:/Games/**/TENOKE`                              |
+| TENOKE             | **`<root>/**/TENOKE`**, `C:/Games/**/TENOKE`, `D:/Games/**/TENOKE`                              |
 | UniverseLAN*       | **`<root>/**/UniverseLANData`**, `C:/GOG Games/**/UniverseLANData`, `D:/GOG Games/**/UniverseLANData`, `C:/Games/GOG Games/**/UniverseLANData`, `D:/Games/GOG Games/**/UniverseLANData` **`Global Folder: <winLocalAppData>/UniverseLAN`** |
 
-| ❗  |  Because UniverseLAN depends on the game installation, if your game is installed outside the default GOG games installation path or C:/ and D:/, add the main folder of your game(s) here if they are not in the default location. **`Before launching the game, make sure to run UniverseLANServer.exe or UniverseLANServer64.exe so your achievement progress is saved to disk.`**|
+| ❗  |  Because UniverseLAN depends on the game installation, if your game is installed outside the default GOG games installation path or C:/ and D:/, Enter the location of your games here. Example: C:\Program Files, C:\Program Files (x86)\Games <img width="1894" height="417" alt="resim" src="https://github.com/user-attachments/assets/cd3b4cde-37bf-4d71-b942-3b85b4bb72b6" /> or add the main folder of your game(s) here if they are not in the default location. **`Before launching the game, make sure to run UniverseLANServer.exe or UniverseLANServer64.exe so your achievement progress is saved to disk.`**|
 | ------------- |:-------------:|
 | ❗❗❗  |  If you want to use `C:\Users\[Your Username]\AppData\Local\UniverseLAN` as the global folder, only copy `Galaxy.dll` and/or `Galaxy64.dll`, along with `UniverseLANServer.exe` and/or `UniverseLANServer64.exe`, into the game directory. **Do not copy** `UniverseLAN.ini`, `UniverseLANData`, or `UniverseLANServerData` into the game directory. (A valid goggame-*.info file must be present, and its rootGameId must be successfully parsed.) **`Before launching the game, make sure to run UniverseLANServer.exe or UniverseLANServer64.exe so your achievement progress is saved to disk.`**|
 
