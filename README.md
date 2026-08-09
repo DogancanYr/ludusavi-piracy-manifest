@@ -18,18 +18,21 @@ A **manifest** that provides **emulator related paths** for **Ludusavi**, includ
 
 ## 💾 File paths
 
-| Emulator           | File Paths                                                                                                      |
+| Emulator           | File Paths                                                                                      |
 |-------------------|-------------------|
-| Goldberg Fork      | `%APPDATA%/GSE Saves`                                                                                        |
-| Goldberg           | `%APPDATA%/Goldberg SteamEmu Saves`                                                                         |
-| OnlineFix          | `%PUBLIC%/Documents/OnlineFix`                                                                              |
-| EMPRESS            | `%APPDATA%/EMPRESS`, `%PUBLIC%/EMPRESS`                                                                  |
-| Rune               | `%PUBLIC%/Documents/Steam/Rune`                                                                             |
-| Codex              | `%PUBLIC%/Documents/Steam/Codex`, `%APPDATA%/Steam/CODEX`                                                |
-| SkidRow            | `Documents/SkidRow`, `%LOCALAPPDATA%/skidrow`                                                         |
-| SmartSteamEmu      | `%APPDATA%/SmartSteamEmu`                                                                                    |
-| CreamApi           | `%APPDATA%/CreamApi`                                                                                         |
-| UniverseLAN*        | **`<root>/**/UniverseLANData`**, `C:/GOG Games/**/UniverseLANData`, `D:/GOG Games/**/UniverseLANData`, `C:/Games/GOG Games/**/UniverseLANData`, `D:/Games/GOG Games/**/UniverseLANData` **`Global Folder: <winLocalAppData>/UniverseLAN`** |
+| Goldberg Fork      | `%APPDATA%/GSE Saves`                                                                           |
+| Goldberg           | `%APPDATA%/Goldberg SteamEmu Saves`                                                             |
+| OnlineFix          | `%PUBLIC%/Documents/OnlineFix`                                                                  |
+| EMPRESS            | `%APPDATA%/EMPRESS`, `%PUBLIC%/EMPRESS`                                                         |
+| Rune               | `%PUBLIC%/Documents/Steam/Rune`                                                                 |
+| Codex              | `%PUBLIC%/Documents/Steam/Codex`, `%APPDATA%/Steam/CODEX`                                       |
+| SkidRow            | `Documents/SkidRow`, `%LOCALAPPDATA%/skidrow`                                                   |
+| SmartSteamEmu      | `%APPDATA%/SmartSteamEmu`                                                                       |
+| CreamApi           | `%APPDATA%/CreamApi`                                                                            |
+| Razor1911          | `%APPDATA%/.1911`                                                                               |
+| FLT                | `%APPDATA%/FLT`                                                                                 |
+| TENOKE             | **`<root>/**/TENOKE`**, `C:/Games/**/TENOKE`, `C:/Games/**/TENOKE`                              |
+| UniverseLAN*       | **`<root>/**/UniverseLANData`**, `C:/GOG Games/**/UniverseLANData`, `D:/GOG Games/**/UniverseLANData`, `C:/Games/GOG Games/**/UniverseLANData`, `D:/Games/GOG Games/**/UniverseLANData` **`Global Folder: <winLocalAppData>/UniverseLAN`** |
 
 | ❗  |  Because UniverseLAN depends on the game installation, if your game is installed outside the default GOG games installation path or C:/ and D:/, add the main folder of your game(s) here if they are not in the default location. **`Before launching the game, make sure to run UniverseLANServer.exe or UniverseLANServer64.exe so your achievement progress is saved to disk.`**|
 | ------------- |:-------------:|
